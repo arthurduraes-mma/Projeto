@@ -6,6 +6,7 @@
 // potencia ** 2 ** 3 = 8
 
 
+
 let idade = 20;
 
 console.log(idade > 10);
@@ -15,12 +16,16 @@ let nota = 6;
 
 console.log(nota < 7);
 
+console.log(idade >= 20);
+console.log(nota <= 6);
+
+console.log(idade == 20);
+console.log(idade === 20);
+
+console.log(idade != 15);
+console.log(idade !== 15);
+
 console.log(idade > 10 && nota < 7);
 console.log(idade > 10 || nota > 7);
 console.log(!(idade > 10));
-// Maior que >
-//Menor que <
-// Menor ou igual <=
-// Igual ==
-// Estritamente igual ===
-// Difre
+
